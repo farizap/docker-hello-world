@@ -30,4 +30,4 @@ jobs:
           file: ./Dockerfile
           tags: ghcr.io/farizap/docker-hello-world:latest
       - name: Test
-        run: echo "$"
+        run: echo "$DIGEST"
